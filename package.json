@@ -1,0 +1,17 @@
+{
+  "name": "mkp-bersih-berintegritas",
+  "version": "1.0.0",
+  "description": "Website Sosialisasi MKP Bersih dan Berintegritas - PT Mitra Karya Prima",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["mkp", "integritas", "gcg", "anti-korupsi"],
+  "author": "PT Mitra Karya Prima",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^6.2.2"
+  }
+}

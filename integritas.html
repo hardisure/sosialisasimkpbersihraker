@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Uji Integritas - MKP Bersih</title>
+    <meta name="description"
+        content="Interactive Integrity Meter dan peran karyawan dalam sistem pengendalian integritas PT Mitra Karya Prima">
+    <link rel="icon" href="./assets/mkp-logo.png" type="image/png">
+    <link rel="stylesheet" href="/src/styles/base.css">
+    <link rel="stylesheet" href="/src/styles/components.css">
+    <link rel="stylesheet" href="/src/styles/responsive.css">
+</head>
+
+<body>
+    <!-- PAGE HERO -->
+    <section class="hero page-hero">
+        <div class="hc fi">
+            <h1>Uji Integritas Anda</h1>
+            <div class="st">Interactive Integrity Meter</div>
+            <p>Uji pemahaman dan komitmen integritas Anda secara mandiri, lalu pelajari peran krusial Anda dalam sistem
+                pengendalian.</p>
+        </div>
+    </section>
+
+    <!-- INTEGRITY METER -->
+    <section class="bgg">
+        <div class="ctn">
+            <div class="sh fi">
+                <h2>Interactive Integrity Meter</h2>
+                <p>Centang setiap pernyataan yang sesuai dengan pemahaman dan komitmen Anda.</p>
+                <div class="al"></div>
+            </div>
+            <div class="mw fi">
+                <div class="mq"><input type="checkbox" id="q1" onchange="cM()"><label for="q1">Saya mengetahui batas
+                        nominal gratifikasi.</label></div>
+                <div class="mq"><input type="checkbox" id="q2" onchange="cM()"><label for="q2">Saya memahami kewajiban
+                        pelaporan 7 hari.</label></div>
+                <div class="mq"><input type="checkbox" id="q3" onchange="cM()"><label for="q3">Saya berani menolak
+                        pemberian yang berpotensi suap.</label></div>
+                <div class="mq"><input type="checkbox" id="q4" onchange="cM()"><label for="q4">Saya tidak memiliki
+                        benturan kepentingan dengan vendor.</label></div>
+                <div class="mq"><input type="checkbox" id="q5" onchange="cM()"><label for="q5">Saya siap melaporkan
+                        pelanggaran melalui WBS.</label></div>
+                <div class="mq"><input type="checkbox" id="q6" onchange="cM()"><label for="q6">Saya memahami risiko
+                        pidana jika tidak melaporkan gratifikasi.</label></div>
+                <div class="mq"><input type="checkbox" id="q7" onchange="cM()"><label for="q7">Saya mengutamakan
+                        transaksi non-tunai dalam setiap kegiatan bisnis.</label></div>
+                <div class="mq"><input type="checkbox" id="q8" onchange="cM()"><label for="q8">Saya telah mengisi Surat
+                        Pernyataan (Form A) bebas benturan kepentingan.</label></div>
+                <div class="mq"><input type="checkbox" id="q9" onchange="cM()"><label for="q9">Saya menolak parsel hari
+                        raya dan hiburan mewah dari pihak ketiga.</label></div>
+                <div class="mq"><input type="checkbox" id="q10" onchange="cM()"><label for="q10">Saya memahami prinsip
+                        GCG: Transparansi, Akuntabilitas, Tanggung Jawab, Kemandirian, dan Kewajaran.</label></div>
+                <div class="mr">
+                    <div class="ms" id="mS">0</div>
+                    <div class="mb">
+                        <div class="mbf" id="mB"></div>
+                    </div>
+                    <div class="ml" id="mL" style="color:var(--red)">Risiko Tinggi</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PERAN KARYAWAN -->
+    <section>
+        <div class="ctn">
+            <div class="sh fi">
+                <h2>Peran Karyawan dalam Sistem Pengendalian</h2>
+                <p>Empat peran krusial karyawan level pelaksana sebagai motor penggerak utama integritas.</p>
+                <div class="al"></div>
+            </div>
+            <div class="role-grid fi">
+                <div class="role-card">
+                    <div class="role-num">1</div>
+                    <h4>Pelaksana Kepatuhan Aktif</h4>
+                    <p>Garis pertahanan pertama: menolak gratifikasi dengan santun, menghindari benturan kepentingan,
+                        dan menerapkan standar etika terbaik dalam keseharian kerja.</p>
+                </div>
+                <div class="role-card">
+                    <div class="role-num">2</div>
+                    <h4>Agen Transparansi Administrasi</h4>
+                    <p>Mengisi Form A secara jujur, melaporkan gratifikasi ke UPG dalam 7 hari, dan melaporkan transaksi
+                        tunai besar via Form D untuk mencegah kecurangan sejak dini.</p>
+                </div>
+                <div class="role-card">
+                    <div class="role-num">3</div>
+                    <h4>"Mata dan Telinga" Perusahaan</h4>
+                    <p>Deteksi dini via WBS: mengikis "budaya diam" menuju budaya kejujuran, berani melapor saat melihat
+                        kecurangan bahkan oleh atasan, secara rahasia dan aman.</p>
+                </div>
+                <div class="role-card">
+                    <div class="role-num">4</div>
+                    <h4>Pembentuk Budaya Korporat</h4>
+                    <p>Pilar Partisipasi: ketika mayoritas karyawan memegang teguh integritas, terbentuk tekanan sosial
+                        positif (peer pressure) yang menutup ruang gerak oknum pelanggar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KOMITMEN -->
+    <section class="ks">
+        <div class="fi">
+            <h2>Komitmen Integritas</h2>
+            <p>Sebagai Insan MKP, saya berkomitmen untuk menegakkan integritas, menolak segala bentuk KKN, dan menjadi
+                garis pertahanan terdepan dalam mewujudkan perusahaan yang bersih dan berintegritas.</p>
+            <a href="https://script.google.com/macros/s/AKfycbwRpWJooEJDVnMXskSJQgUA9MBCXlL9CmgTdTC6lZ8IHyCbIrwrz4xemReEiHTslxelaw/exec"
+                target="_blank" class="bk">Kirim Komitmen Integritas</a>
+        </div>
+    </section>
+
+    <!-- KUTIPAN -->
+    <section class="bgd">
+        <div class="ctn" style="text-align:center;padding:60px 0">
+            <div class="fi">
+                <p
+                    style="font-size:1.3rem;font-style:italic;color:rgba(255,255,255,0.9);max-width:600px;margin:0 auto 16px">
+                    "Integritas adalah tetap melakukan hal benar, ketika tidak ada yang melihat."</p>
+                <p style="color:var(--tl);font-weight:600">&mdash; C.S. Lewis</p>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="/src/pages/integritas.js"></script>
+</body>
+
+</html>

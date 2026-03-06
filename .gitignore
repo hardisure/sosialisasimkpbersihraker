@@ -1,0 +1,16 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Source/reference files at root (not for public deployment)
+/*.old.html
+/*.pdf
+/LOGO MKP HD.png
+/LOGO MKP HDlow.png
+/mkp-logo.png

@@ -8,10 +8,15 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "keywords": ["mkp", "integritas", "gcg", "anti-korupsi"],
+  "keywords": [
+    "mkp",
+    "integritas",
+    "gcg",
+    "anti-korupsi"
+  ],
   "author": "PT Mitra Karya Prima",
   "license": "ISC",
   "devDependencies": {
-    "vite": "^6.2.2"
+    "vite": "^7.3.1"
   }
 }

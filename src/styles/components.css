@@ -196,8 +196,50 @@ nav .ctn {
 .hero .dp {
     color: var(--tl);
     font-size: 1rem;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
     font-weight: 500;
+}
+
+/* SKB Badge */
+.skb-badge {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    padding: 16px 28px;
+    margin: 0 auto 28px;
+    max-width: 540px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.skb-title {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.skb-numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.skb-numbers span {
+    font-family: var(--ff-heading);
+    font-weight: 700;
+    font-size: 0.92rem;
+    color: var(--tl);
+    letter-spacing: 0.5px;
+}
+
+.skb-divider {
+    color: rgba(255, 255, 255, 0.25) !important;
+    font-weight: 300 !important;
 }
 
 .hero p {
